@@ -1,0 +1,86 @@
+{
+  "export_info": {
+    "subdomain": "test",
+    "exported_at": "2025-09-23T18:20:00",
+    "total_leads": 2,
+    "api_requests": 10,
+    "version": "1.0",
+    "stats": {
+      "leads_processed": 2,
+      "notes_found": 8,
+      "messages_extracted": 6,
+      "api_requests": 10,
+      "errors": 0
+    }
+  },
+  "leads": [
+    {
+      "lead_id": 11111,
+      "total_notes": 4,
+      "messages": [
+        {
+          "id": 1001,
+          "text": "Здравствуйте! Интересует сплав по реке Чусовая на 3 дня",
+          "sender_type": "client",
+          "note_type": "common",
+          "created_at": 1640995200,
+          "updated_at": 1640995200,
+          "created_by": 123
+        },
+        {
+          "id": 1002,
+          "text": "Добро пожаловать! У нас есть отличные туры по Чусовой. Какие даты вас интересуют?",
+          "sender_type": "assistant",
+          "note_type": "common",
+          "created_at": 1640995800,
+          "updated_at": 1640995800,
+          "created_by": 456
+        },
+        {
+          "id": 1003,
+          "text": "Нас интересуют даты в июле, желательно с 15 по 18 число",
+          "sender_type": "client",
+          "note_type": "common",
+          "created_at": 1640996400,
+          "updated_at": 1640996400,
+          "created_by": 123
+        },
+        {
+          "id": 1004,
+          "text": "Отлично! На эти даты у нас есть свободные места. Стоимость тура 18,000 руб/чел",
+          "sender_type": "assistant",
+          "note_type": "common",
+          "created_at": 1640997000,
+          "updated_at": 1640997000,
+          "created_by": 456
+        }
+      ],
+      "exported_at": 1758651200
+    },
+    {
+      "lead_id": 22222,
+      "total_notes": 4,
+      "messages": [
+        {
+          "id": 2001,
+          "text": "Добрый день! Хочу узнать про корпоративные туры",
+          "sender_type": "client",
+          "note_type": "common",
+          "created_at": 1641081600,
+          "updated_at": 1641081600,
+          "created_by": 789
+        },
+        {
+          "id": 2002,
+          "text": "Звонок от клиента по корпоративным турам",
+          "sender_type": "client",
+          "note_type": "call_in",
+          "created_at": 1641082200,
+          "updated_at": 1641082200,
+          "created_by": 789
+        }
+      ],
+      "exported_at": 1758651200
+    }
+  ]
+}
